@@ -16,3 +16,15 @@ Pre-compiled binaries are available in the [latest release page](https://github.
   --url string      the API URL (default "https://ipfs.infura.io:5001")
   --verbose         whether or not to print full upload information (default false)
 ```
+
+# DOC Added by Gustavo B
+
+## Build/Install 
+
+go build
+
+## Upload
+
+copy the files folder in the same folder (folder `/image` in this example) than the executable `ipfs-upload-client` and make: 
+
+`./ipfs-upload-client --id xxxxx --secret yyyyy images --verbose`
